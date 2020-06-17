@@ -34,6 +34,7 @@ section{
 	padding-top: 25%;
 	padding-left: 15%;
 	padding-right: 15%;
+	min-height: 700px;
 }
 nav a:hover , #active{
 	color: #fff;
@@ -63,4 +64,17 @@ section a , footer a{
 footer a:hover{
 	background-color: #000000;
 	padding: 9px;
+}
+@media screen and (min-width: 1000px){
+	header h1{
+		width: 30%;
+		display: inline-block;
+	}
+	header nav{
+		width: 65%;
+		display: inline-block;
+	}
+	header h1{
+		padding-top: 2%;
+	}
 }
